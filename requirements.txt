@@ -1,5 +1,4 @@
-streamlit
-pandas
-google-generativeai
-json
-datetime
+streamlit==1.22.0
+pandas==2.0.0
+google-generativeai==0.3.2
+Pillow==10.1.0
