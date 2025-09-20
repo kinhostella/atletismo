@@ -14,7 +14,7 @@ st.title("Bot de Consultas Ranking de Atletismo Galego 🏃‍♂️")
 # --- Configuración de la API de Gemini ---
 API_KEY = st.secrets["API_KEY"] # Reemplaza con tu clave
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash-lite')
+model = genai.GenerativeModel('gemini-2.5-flash-lite')
 
 
 
