@@ -109,7 +109,7 @@ df = cargar_datos('ranking_consolidado.csv')
 if df is not None:
     st.write("¡Haz una pregunta sobre atletas, equipos o marcas y te daré la respuesta!")
     
-    pregunta_usuario = st.text_input("Ingresa tu pregunta:", "Muéstrame los resultados de Jose Perez en el 100 metros lisos de los últimos 5 años ordenados por fecha")
+    pregunta_usuario = st.text_input("Ingresa tu pregunta:", "")
 
     if pregunta_usuario:
         with st.spinner('Procesando...'):
